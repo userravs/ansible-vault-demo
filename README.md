@@ -1,5 +1,5 @@
 # ansible-vault-demo
-- Information about "sensitive_content.yml":
+- Information about *sensitive_content.yml*:
 
 Variable name | value
 --- | --- 
