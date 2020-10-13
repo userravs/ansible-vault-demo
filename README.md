@@ -1,6 +1,12 @@
 # ansible-vault-demo
-- Managed node username: ansible
-- Managed node password: password
+Information about "sensitive_content.yml":
+
+| Variable name | value |
+| --- | --- | --- |
+| managed_node_ip | 192.168.10.131 |
+| managed_node_user | ansible |
+| managed node pass | password |
+
 - Vault password: password
 
 ## Runbook
