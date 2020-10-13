@@ -1,0 +1,13 @@
+---
+- name: Dummy playbook
+  gather_facts: false
+  hosts: all
+  vars_files:
+    - sensitive_content.yml
+
+  tasks:
+  - name: Install the latest version of Vim
+    yum:
+      name: vim
+      state: latest 
+    become: yes
