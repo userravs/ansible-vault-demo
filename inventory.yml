@@ -1,0 +1,7 @@
+---
+all:
+  hosts:
+    managed-node:
+      ansible_host: "{{ managed_node_ip }}" 
+      ansible_user: "{{ managed_node_user }}"
+      ansible_ssh_pass: "{{ managed_node_pass }}"
