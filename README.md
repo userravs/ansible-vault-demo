@@ -15,4 +15,4 @@ Variable name | value
 1. Edit file *sensitive_content.yml*: `vi sensitive_content.yml`
 2. Encrypt file: `ansible-vault encrypt sensitive_content.yml --ask-vault-pass`
 3. Run playbook: `ansible-playbook -i inventory.yml playbook.yml --ask-vault-pass`
-4. Encrypt content if required: `ansible-vault decrypt sensitive_content.yml --ask-vault-pass`
+4. Decrypt content if required: `ansible-vault decrypt sensitive_content.yml --ask-vault-pass`
